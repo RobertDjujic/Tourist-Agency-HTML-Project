@@ -1,5 +1,52 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.wrap {
+  border: 3px solid;
+  width: 900px;
+  margin: 10px auto;
+  padding: 10px;
+}
+.wrap--head {
+  border-color: brown;
+}
+.wrap--head nav {
+  border: inherit;
+  border-color: lightgreen;
+}
+.wrap--main {
+  border-color: teal;
+}
+.wrap--main section {
+  border: 3px dashed orange;
+  margin-bottom: 10px;
+  padding: inherit;
+}
+.wrap--foot {
+  border-color: darkgreen;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 200px;
+}
+
+.map,
+.stickers {
+  width: 575px;
+  height: 325px;
+}
+
+#message {
+  width: 400px;
+  height: 100px;
+}
+
+.mail {
+  display: block;
+  width: 80px;
+  height: 80px;
+}/*# sourceMappingURL=styles.css.map */
