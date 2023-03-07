@@ -7,24 +7,24 @@
   width: 900px;
   margin: 10px auto;
   padding: 10px;
-  &--head {
-    border-color: brown;
-    nav {
-      border: inherit;
-      border-color: lightgreen;
-    }
-  }
-  &--main {
-    border-color: teal;
-    section {
-      border: 3px dashed orange;
-      margin-bottom: 10px;
-      padding: inherit;
-    }
-  }
-  &--foot {
-    border-color: darkgreen;
-  }
+}
+.wrap--head {
+  border-color: brown;
+}
+.wrap--head nav {
+  border: inherit;
+  border-color: lightgreen;
+}
+.wrap--main {
+  border-color: teal;
+}
+.wrap--main section {
+  border: 3px dashed orange;
+  margin-bottom: 10px;
+  padding: inherit;
+}
+.wrap--foot {
+  border-color: darkgreen;
 }
 
 .logo {
@@ -46,7 +46,7 @@
 }
 
 .mail {
-  display: block;
+  color: black;
   width: 80px;
   height: 80px;
-}
+}/*# sourceMappingURL=style.css.map */
